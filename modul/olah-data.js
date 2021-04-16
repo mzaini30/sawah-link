@@ -6,4 +6,7 @@ banyak = +banyak
 let google = fs.readFileSync('./google.txt', 'utf8')
 google = google.split('\n')
 
-module.exports = {banyak, google}
+let blog = fs.readFileSync('../blog.txt', 'utf8')
+blog = blog.split('\n')
+
+module.exports = {banyak, google, blog}
