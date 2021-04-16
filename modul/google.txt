@@ -1,1 +1,12 @@
 https://www.google.com/url?sa=t&url={url}
+https://www.google.co.id/url?sa=t&url={url}
+https://www.google.com.ar/url?sa=t&url={url}
+https://www.google.com.au/url?sa=t&url={url}
+https://images.google.com/url?sa=t&url={url}
+https://images.google.co.id/url?sa=t&url={url}
+https://images.google.com.ar/url?sa=t&url={url}
+https://images.google.com.au/url?sa=t&url={url}
+https://maps.google.com/url?sa=t&url={url}
+https://maps.google.co.id/url?sa=t&url={url}
+https://maps.google.com.ar/url?sa=t&url={url}
+https://maps.google.com.au/url?sa=t&url={url}
