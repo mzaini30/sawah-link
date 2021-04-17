@@ -1,5 +1,6 @@
-const {driver, elemen} = require('./init')
-const fs = require('fs')
+import {driver, elemen} from './init'
+import fs from 'fs'
+
 async function jalankan(){
 
 }

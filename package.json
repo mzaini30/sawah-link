@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "Auto spam ke berbagai forum",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://mzaini30:kuc1n9d0r43m0n@github.com/mzaini30/sawah-link.git"
+    "url": "git+https://github.com/mzaini30/sawah-link.git"
   },
   "keywords": [],
   "author": "",
