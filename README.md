@@ -20,10 +20,8 @@ npm i
 
 ## Jalankan
 
-Misal, ingin nyebarkan link di Telegraph:
-
 ```bash
-node telegraph.js
+sh start.sh
 ```
 
 Hasilnya di `hasil.txt`
