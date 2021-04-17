@@ -16,4 +16,8 @@ baru = baru.join('\n').split('\n')
 
 const pembagian = Math.ceil(baru.length / banyak)
 
-console.log(pembagian)
+let state = 0
+let kumpulan = []
+for (let _ of Array(pembagian)){
+	console.log('halo')
+}
