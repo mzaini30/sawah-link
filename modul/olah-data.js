@@ -12,5 +12,8 @@ let baru = []
 for (let x of blog){
 	baru = [...baru, google.replace(/{url}/g, x)]
 }
-baru = baru.join('\n')
-console.log(baru)
+baru = baru.join('\n').split('\n')
+
+const pembagian = Math.ceil(baru.length / banyak)
+
+console.log(pembagian)

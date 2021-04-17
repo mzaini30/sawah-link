@@ -10,6 +10,8 @@ Mendukung Chrome versi 89. Kalau misalnya kamu menggunakan Chrome versi yang lai
 npm i -D chromedriver@88
 ```
 
+Isi link blog di `blog.txt`
+
 ## Install Dependencies
 
 ```bash
@@ -18,6 +20,10 @@ npm i
 
 ## Jalankan
 
+Misal, ingin nyebarkan link di Telegraph:
+
 ```bash
-node .
+node telegraph.js
 ```
+
+Hasilnya di `hasil.txt`
