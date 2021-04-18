@@ -21,7 +21,7 @@ npm i
 ## Jalankan
 
 ```bash
-sh start.sh
+node .
 ```
 
 Hasilnya di `hasil.txt`

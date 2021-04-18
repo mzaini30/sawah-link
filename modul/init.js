@@ -1,14 +1,16 @@
-import webdriver from 'selenium-webdriver'
-import chrome from 'selenium-webdriver/chrome'
-import chromedriver from 'chromedriver'
+const webdriver = require('selenium-webdriver')
+const chrome = require('selenium-webdriver/chrome')
+const chromedriver = require('chromedriver')
 
 let chromeoptions = new chrome.Options();
 chromeoptions.addArguments("--start-maximized");
 
 chrome.setDefaultService(new chrome.ServiceBuilder(chromedriver.path).build())
 
-export const driver = new webdriver.Builder().forBrowser('chrome').setChromeOptions(chromeoptions).build()
+const driver = new webdriver.Builder().forBrowser('chrome').setChromeOptions(chromeoptions).build()
 
-export async function elemen(x){
+async function elemen(x){
 	return await driver.findElement(webdriver.By.css(x))
 }
+
+module.exports = {driver, elemen}
