@@ -6,6 +6,6 @@ import {redzone} from './modul/redzone.js'
 async function init(){
 	// await telegraph()
 	// await rosemont()
-	await redzone()
+	// await redzone()
 }
 init()
