@@ -34,6 +34,16 @@ npm i -D chromedriver@88
 
 Isi link blog di `blog.txt`
 
+Untuk link blog di `blog.txt`, bisa lebih dari satu blog. Contohnya seperti ini:
+
+```
+https://kucing.com
+https://miauw.com
+https://harimau.com
+```
+
+Jadi, pemisahnya adalah baris baru
+
 ## Install Dependencies
 
 ```bash
