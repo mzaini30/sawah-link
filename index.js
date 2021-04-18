@@ -9,10 +9,10 @@ import {qcc} from './modul/qcc.js'
 
 async function init(){
 	await telegraph()
-	await rosemont()
 	await quincy()
 	await uttc()
 	await qcc()
-	await redzone()
+	await redzone() // ini prosesnya agak lama
+	await rosemont() // ini sering crash
 }
 init()
