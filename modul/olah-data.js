@@ -30,4 +30,4 @@ for (let _ of Array(pembagian)){
 	state += banyak
 }
 
-kumpulan = kumpulan.map(x => x.replace(/undefined\n/g, ''))
+kumpulan = kumpulan.map(x => x.replace(/undefined /g, ''))

@@ -4,9 +4,9 @@ import fs  from 'fs'
 import until from 'selenium-webdriver/lib/until.js'
 import {jadiLink} from './jadi-link.js'
 
-export async function rosemont(){
+export async function capitol(){
 	for (let x of kumpulan){
-		await driver.get('https://iway.rosemont.edu/ICS/Campus_Life/Campus_Groups/Organization_of_African_American_Students/Home.jnz?portlet=Discussion_Board&screen=PostView&screenType=change&id=04e9e807-e896-4946-ba8a-fe3d7a1d2d76&p=551')
+		await driver.get('https://mycapitol.captechu.edu/ICS/Campus_Life/Campus_Groups/CapVets/Discussion.jnz?portlet=Forums&screen=PostView&screenType=change&id=27a2dd0f-3008-4a13-8fc0-fba52ae072df&p=2')
 		await driver.executeScript(`document.querySelector('.btn.btn-sm.btn-primary.float-right').click()`)
 		await driver.executeScript(`
 			function cekEditor(){
