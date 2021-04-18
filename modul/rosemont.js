@@ -8,7 +8,7 @@ export async function rosemont(){
 	for (let x of kumpulan){
 		await driver.get('https://iway.rosemont.edu/ICS/Campus_Life/Campus_Groups/Organization_of_African_American_Students/Home.jnz?portlet=Discussion_Board&screen=PostView&screenType=change&id=04e9e807-e896-4946-ba8a-fe3d7a1d2d76&p=551')
 
-		await driver.executeScript(`document.querySelector('.row.forums-paging.white-background.dark-top-border.vert-padding-xsm .col-xs-4.col-md-3 .float-right a:nth-child(2)').click()`)
+		await driver.executeScript(`document.querySelector('.row.forums-paging.white-background.dark-top-border.vert-padding-xsm .col-xs-4.col-md-3 .float-right a:nth-child(3)').click()`)
 
 		const linknya = await driver.getCurrentUrl()
 
