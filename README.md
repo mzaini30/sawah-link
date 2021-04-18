@@ -2,6 +2,8 @@
 
 Auto spam ke berbagai forum.
 
+RESIKO DITANGGUNG MASING-MASING YA~
+
 ## CATATAN
 
 Masih WIP (Work In Progress). Kalau mau pakai, modif file:

@@ -4,8 +4,8 @@ import {redzone} from './modul/redzone.js'
 // import {capitol} from './modul/capitol.js'
 
 async function init(){
-	await telegraph()
-	await rosemont()
+	// await telegraph()
+	// await rosemont()
 	await redzone()
 }
 init()
