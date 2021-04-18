@@ -15,7 +15,7 @@ export async function quincy(){
 		const isiTeks = fs.readFileSync('./hasil.txt', 'utf8')
 		fs.writeFileSync('./hasil.txt', `${isiTeks}\n${linknya}`)
 
-		await driver.executeScript(`document.querySelector('.btn.btn-sm.btn-primary.float-right').click()`)
+		await driver.executeScript(`document.querySelector('.btn.btn-sm.btn-primary.post-reply-btn').click()`)
 		await driver.executeScript(`
 			function cekEditor(){
 				if (tinyMCE) {
