@@ -4,10 +4,10 @@ import fs  from 'fs'
 import until from 'selenium-webdriver/lib/until.js'
 import {jadiLink} from './jadi-link.js'
 
-export async function rosemont(){
+export async function redzone(){
 	for (let x of kumpulan){
-		await driver.get('https://iway.rosemont.edu/ICS/Campus_Life/Campus_Groups/Organization_of_African_American_Students/Home.jnz?portlet=Discussion_Board&screen=PostView&screenType=change&id=04e9e807-e896-4946-ba8a-fe3d7a1d2d76&p=551')
-		await driver.executeScript(`document.querySelector('.btn.btn-sm.btn-primary.float-right').click()`)
+		await driver.get('https://redzone.labette.edu/ICS/Campus_Life/Campus_Groups/Phi_Beta_Lambda/Discussion.jnz?portlet=Forums&screen=PostView&screenType=change&id=c6bad91c-0181-45d7-b9c6-1c76ae2edd46&p=8')
+		await driver.executeScript(`document.querySelector('.btn.btn-sm.btn-primary.post-reply-btn').click()`)
 		await driver.executeScript(`
 			function cekEditor(){
 				if (tinyMCE) {

@@ -2,6 +2,7 @@ import {driver, elemen}  from './init.js'
 import {kumpulan}  from './olah-data.js'
 import fs  from 'fs'
 import until from 'selenium-webdriver/lib/until.js'
+import {jadiLink} from './jadi-link.js'
 
 export async function telegraph(){
 	for (let x of kumpulan){
@@ -9,13 +10,14 @@ export async function telegraph(){
 
 		await driver.get('https://telegra.ph/')
 
-		x = x.split(' ').map(y => `<a href='${y}'>${y}</a>`).join(' ')
+		// x = x.split(' ').map(y => `<a href='${y}'>${y}</a>`).join(' ')
 
 		await driver.executeScript(`document.querySelector('h1.empty').innerText = '${judulAcak}'`)
-		await driver.executeScript(`document.querySelector('p.empty').innerHTML = "${x}"`)
+		await driver.executeScript(`document.querySelector('p.empty').innerHTML = "${jadiLink(x)}"`)
+		await driver.executeScript(`document.querySelector('#_publish_button').click()`)
 
-		const publish = await elemen('#_publish_button')
-		await publish.click()
+		// const publish = await elemen('#_publish_button')
+		// await publish.click()
 
 		await driver.wait(until.urlContains((judulAcak + '').replace('.', '')));
 
