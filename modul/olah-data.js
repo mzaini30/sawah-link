@@ -1,4 +1,4 @@
-const fs = require('fs')
+import fs from 'fs'
 
 let banyak = fs.readFileSync('./modul/banyak.txt', 'utf8')
 banyak = +banyak
@@ -19,11 +19,11 @@ const pembagian = Math.ceil(baru.length / banyak)
 let state = 0
 let temp = ''
 
-let kumpulan = []
+export let kumpulan = []
 
 for (let _ of Array(pembagian)){
 	for (let n = state; n < banyak + state; n++){
-		temp += `${baru[n]}\n`
+		temp += `${baru[n]} `
 	}
 	kumpulan = [...kumpulan, temp]
 	temp = ''
@@ -31,5 +31,3 @@ for (let _ of Array(pembagian)){
 }
 
 kumpulan = kumpulan.map(x => x.replace(/undefined\n/g, ''))
-
-module.exports = {kumpulan}

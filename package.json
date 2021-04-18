@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Auto spam ke berbagai forum",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,7 +20,6 @@
   "homepage": "https://github.com/mzaini30/sawah-link#readme",
   "devDependencies": {
     "chromedriver": "^89.0.0",
-    "copy-text-to-clipboard": "^3.0.1",
     "selenium-webdriver": "^4.0.0-beta.3"
   }
 }

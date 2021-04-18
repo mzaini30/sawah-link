@@ -1,3 +1,3 @@
-const {telegraph} = require('./modul/telegraph.js')
+import {telegraph} from './modul/telegraph.js'
 
 telegraph()
