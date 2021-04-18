@@ -1,6 +1,14 @@
-# Sawah Link
+# Sawah Link (WIP)
 
 Auto spam ke berbagai forum.
+
+## CATATAN
+
+Masih WIP (Work In Progress). Kalau mau pakai, modif file:
+
+- index.js
+- modul/google.txt (sesuaikan dengan bahan/target.txt)
+- modul/banyak.txt
 
 ## Persiapan
 
