@@ -19,6 +19,7 @@
   "homepage": "https://github.com/mzaini30/sawah-link#readme",
   "devDependencies": {
     "chromedriver": "^89.0.0",
+    "copy-text-to-clipboard": "^3.0.1",
     "selenium-webdriver": "^4.0.0-beta.3"
   }
 }

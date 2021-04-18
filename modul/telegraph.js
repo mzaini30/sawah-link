@@ -1,9 +1,11 @@
 const {driver, elemen} = require('./init')
 const {kumpulan} = require('./olah-data')
 const fs = require('fs')
+const copy = require('copy-text-to-clipboard')
 
 async function telegraph(){
 	for (let x of kumpulan){
+		copy(x)
 		await driver.get('https://telegra.ph/')
 
 		const judul = await elemen('h1.empty')
@@ -12,7 +14,8 @@ async function telegraph(){
 
 		const isi = await elemen('p.empty')
 		await isi.click()
-		await isi.sendKeys(x)
+		await isi.sendKeys(Key.CONTROL, 'v')
+		// await isi.sendKeys(x)
 
 		const publish = await elemen('#_publish_button')
 		await publish.click()
