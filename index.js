@@ -4,8 +4,7 @@ import {redzone} from './modul/redzone.js'
 import {quincy} from './modul/quincy.js'
 import {uttc} from './modul/uttc.js'
 import {qcc} from './modul/qcc.js'
-// import {capitolCollege} from './modul/capitol-college.js'
-// import {capitol} from './modul/capitol.js'
+import {rapikan} from './modul/rapikan.js'
 
 async function init(){
 	await telegraph()
@@ -14,5 +13,6 @@ async function init(){
 	await qcc()
 	await redzone() // ini prosesnya agak lama
 	await rosemont() // ini sering crash
+	await rapikan()
 }
 init()
