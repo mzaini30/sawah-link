@@ -76,7 +76,7 @@ Perhatikan pada bagian `Jalur Profil` atau `Profile Path`.
 
 Nah, kalau di laptopku kan, jalur profilnya itu: `/home/zen/.config/google-chrome/Default`. Beda laptop, beda jalur profilnya.
 
-Di jalur profil itu, hapus teks Default sehingga menjadi: `/home/zen/.config/google-chrome`
+Di jalur profil itu, hapus teks `Default` sehingga menjadi: `/home/zen/.config/google-chrome`
 
 Kemudian, tulis `/home/zen/.config/google-chrome` di `userdata.txt`.
 
