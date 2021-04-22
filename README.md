@@ -1,6 +1,6 @@
 # Sawah Link (WIP)
 
-Auto spam ke berbagai forum.
+Auto tanam link ke berbagai forum.
 
 RESIKO DITANGGUNG MASING-MASING YA~
 
