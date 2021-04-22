@@ -64,7 +64,7 @@ Edit di `banyak.txt`
 
 Edit di `blog.txt`
 
-## Menggunakan User Data (Jadi, Nggak Perlu Login Lagi)
+## Menggunakan User Data (Jadi, Nggak Perlu Login Lagi) [REQUIRED]
 
 Kita menggunakan teknik ini karena beberapa forum harus login dulu.
 
@@ -75,6 +75,8 @@ Perhatikan pada bagian `Jalur Profil` atau `Profile Path`.
 ![Gambar Jalur Profil](https://i.ibb.co/0hKgFys/image.png)
 
 Nah, kalau di laptopku kan, jalur profilnya itu: `/home/zen/.config/google-chrome/Default`. Beda laptop, beda jalur profilnya.
+
+Kalau untuk Windows, misalnya aja: `C:\Google\Chrome\Default`, ubah `\` menjadi `\\`.
 
 Di jalur profil itu, hapus teks `Default` sehingga menjadi: `/home/zen/.config/google-chrome`
 
