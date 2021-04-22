@@ -1,6 +1,6 @@
 import fs from 'fs'
 
-let banyak = fs.readFileSync('./modul/banyak.txt', 'utf8')
+let banyak = fs.readFileSync('./banyak.txt', 'utf8').trim()
 banyak = +banyak
 
 let google = fs.readFileSync('./modul/google.txt', 'utf8')
