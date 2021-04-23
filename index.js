@@ -16,14 +16,13 @@ async function init(){
 	await quincy()
 	await uttc()
 	await qcc()
+	await redzone() // ini prosesnya agak lama
+	await rosemont() // ini sering crash
 
 	await ustjogja() // dari sini mulai captcha
 	await ui() // agak lama dikit
 	await uned() // loadingnya lama banget
 	await unib() // captcha google
-	
-	await redzone() // ini prosesnya agak lama
-	await rosemont() // ini sering crash
 	
 	await rapikan()
 }
