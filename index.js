@@ -18,9 +18,9 @@ async function init(){
 	await qcc()
 
 	await ustjogja() // dari sini mulai captcha
-	await unib()
 	await ui() // agak lama dikit
 	await uned() // loadingnya lama banget
+	await unib() // captcha google
 	
 	await redzone() // ini prosesnya agak lama
 	await rosemont() // ini sering crash
