@@ -17,7 +17,6 @@ async function init(){
 	await uttc()
 	await qcc()
 
-	'' // pakai login dan captcha
 	await ustjogja()
 	await unib()
 	await ui() // agak lama dikit
