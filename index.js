@@ -12,12 +12,12 @@ import {ui} from './modul/ui.js'
 import {unib} from './modul/unib.js'
 
 async function init(){
-	await telegraph()
+	// await telegraph()
 	await quincy()
 	await uttc()
 	await qcc()
 
-	await ustjogja()
+	await ustjogja() // dari sini mulai captcha
 	await unib()
 	await ui() // agak lama dikit
 	await uned() // loadingnya lama banget
