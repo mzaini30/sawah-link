@@ -64,6 +64,8 @@ Edit di `banyak.txt`
 
 Edit di `blog.txt`
 
+<!--
+
 ## Menggunakan User Data (Jadi, Nggak Perlu Login Lagi) [REQUIRED]
 
 Kita menggunakan teknik ini karena beberapa forum harus login dulu.
@@ -85,6 +87,8 @@ Kemudian, tulis `/home/zen/.config/google-chrome` di `userdata.txt`.
 Lalu, **tutup Google Chrome** untuk menjalankan aplikasi ini.
 
 Mengapa harus tutup Google Chrome terlebih dahulu? Karena kita nggak bisa menggunakan folder User Data jika masih digunakan.
+
+-->
 
 ## Jalankan
 
