@@ -9,6 +9,7 @@ import {tes} from './modul/tes.js'
 import {uned} from './modul/uned.js'
 import {ustjogja} from './modul/ustjogja.js'
 import {ui} from './modul/ui.js'
+import {unib} from './modul/unib.js'
 
 async function init(){
 	await telegraph()
@@ -16,16 +17,15 @@ async function init(){
 	await uttc()
 	await qcc()
 
-	// pakai captcha
+	'' // pakai login dan captcha
 	await ustjogja()
-	await ui()
+	await unib()
+	await ui() // agak lama dikit
 	await uned() // loadingnya lama banget
 	
 	await redzone() // ini prosesnya agak lama
 	await rosemont() // ini sering crash
 	
 	await rapikan()
-
-	// await tes()
 }
 init()
