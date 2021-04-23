@@ -64,6 +64,10 @@ Edit di `banyak.txt`
 
 Edit di `blog.txt`
 
+### Menambah Link Redirect
+
+Edit di `redirect.txt` dengan format seperti ini: `https://situs.com/?menuju={url}`
+
 ## Jalankan
 
 ```bash

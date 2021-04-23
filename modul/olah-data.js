@@ -3,7 +3,7 @@ import fs from 'fs'
 let banyak = fs.readFileSync('./banyak.txt', 'utf8').trim()
 banyak = +banyak
 
-let google = fs.readFileSync('./modul/google.txt', 'utf8')
+let google = fs.readFileSync('./redirect.txt', 'utf8')
 
 let blog = fs.readFileSync('./blog.txt', 'utf8')
 blog = blog.split('\n')
