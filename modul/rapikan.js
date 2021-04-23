@@ -7,3 +7,5 @@ export function rapikan(){
 	data = data.join('\n')
 	fs.writeFileSync('./hasil.txt', data)
 }
+
+rapikan()
