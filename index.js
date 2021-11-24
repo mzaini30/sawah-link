@@ -1,17 +1,17 @@
 #!/usr/bin/env node
 
 import {telegraph} from './modul/telegraph.js'
-import {rosemont} from './modul/rosemont.js'
-import {redzone} from './modul/redzone.js'
-import {quincy} from './modul/quincy.js'
-import {uttc} from './modul/uttc.js'
-import {qcc} from './modul/qcc.js'
+// import {rosemont} from './modul/rosemont.js'
+// import {redzone} from './modul/redzone.js'
+// import {quincy} from './modul/quincy.js'
+// import {uttc} from './modul/uttc.js'
+// import {qcc} from './modul/qcc.js'
 import {rapikan} from './modul/rapikan.js'
-import {tes} from './modul/tes.js'
-import {uned} from './modul/uned.js'
-import {ustjogja} from './modul/ustjogja.js'
-import {ui} from './modul/ui.js'
-import {unib} from './modul/unib.js'
+// import {tes} from './modul/tes.js'
+// import {uned} from './modul/uned.js'
+// import {ustjogja} from './modul/ustjogja.js'
+// import {ui} from './modul/ui.js'
+// import {unib} from './modul/unib.js'
 
 async function init(){
 	await telegraph()

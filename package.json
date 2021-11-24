@@ -1,6 +1,6 @@
 {
   "name": "sawah",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Auto spam ke berbagai forum",
   "main": "index.js",
   "type": "module",
@@ -24,6 +24,7 @@
   "dependencies": {
     "chromedriver": "95",
     "readline-sync": "^1.4.10",
+    "requireg": "^0.2.2",
     "selenium-webdriver": "^4.0.0-beta.3"
   }
 }
