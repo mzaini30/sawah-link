@@ -1,8 +1,8 @@
-import {driver, elemen}  from './init.js'
-import {kumpulan}  from './olah-data.js'
+import {driver, elemen}  from '../modul/init.js'
+import {kumpulan}  from '../modul/olah-data.js'
 import fs  from 'fs'
 import until from 'selenium-webdriver/lib/until.js'
-import {jadiLink} from './jadi-link.js'
+import {jadiLink} from '../modul/jadi-link.js'
 
 export async function telegraph(){
 	for (let x of kumpulan){

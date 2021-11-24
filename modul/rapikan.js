@@ -1,5 +1,5 @@
 import fs from 'fs'
-import buatFileHasil from '../buat-file-hasil.js'
+import buatFileHasil from './buat-file-hasil.js'
 
 export function rapikan(){
 	buatFileHasil()
