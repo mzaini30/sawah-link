@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import {telegraph} from './modul/telegraph.js'
 import {rosemont} from './modul/rosemont.js'
 import {redzone} from './modul/redzone.js'

@@ -1,9 +1,12 @@
 {
-  "name": "sawah-link",
+  "name": "sawah",
   "version": "1.0.0",
   "description": "Auto spam ke berbagai forum",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "sawah": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
