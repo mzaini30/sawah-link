@@ -1,4 +1,4 @@
-http://www.google.ch/url?sa=t&url={url}
+const redirect = `http://www.google.ch/url?sa=t&url={url}
 http://maps.google.cl/url?q={url}
 http://images.google.co.ve/url?q={url}
 http://images.google.ie/url?q={url}
@@ -1422,4 +1422,6 @@ http://www.google.ro/url?sa=t&url={url}
 http://www.google.ru/url?sa=t&url={url}
 http://www.google.ru/url?sa=t&url={url}
 http://www.google.si/url?sa=t&url={url}
-http://www.google.sk/url?sa=t&url={url}
+http://www.google.sk/url?sa=t&url={url}`
+
+export default redirect

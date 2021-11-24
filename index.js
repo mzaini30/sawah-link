@@ -14,17 +14,18 @@ import {ui} from './modul/ui.js'
 import {unib} from './modul/unib.js'
 
 async function init(){
-	// await telegraph()
-	await quincy()
-	await uttc()
-	await qcc()
-	await redzone() // ini prosesnya agak lama
-	await rosemont() // ini sering crash
+	await telegraph()
+	// await quincy() // login required
+	// await uttc() // login required
+	// await qcc() // login required
+	// await redzone() // login required - ini prosesnya agak lama
+	// await rosemont() // login required - ini sering crash
 
-	await ustjogja() // dari sini mulai captcha
-	await ui() // agak lama dikit
-	await uned() // loadingnya lama banget
-	await unib() // captcha google
+	// yang pakai login di bawah ini, nanti aja dulu
+	// await ustjogja() // error - dari sini mulai captcha
+	// await ui() // agak lama dikit
+	// await uned() // not found - loadingnya lama banget
+	// await unib() // captcha google
 	
 	await rapikan()
 }

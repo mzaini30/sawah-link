@@ -1,6 +1,9 @@
 import fs from 'fs'
+import buatFileHasil from '../buat-file-hasil.js'
 
 export function rapikan(){
+	buatFileHasil()
+
 	let data = fs.readFileSync('./hasil.txt', 'utf8')
 	data = data.trim().split('\n')
 	data = [...new Set(data)]
