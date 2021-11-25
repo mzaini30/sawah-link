@@ -1,7 +1,7 @@
 import fs from 'fs'
 import buatFileHasil from './buat-file-hasil.js'
 
-export function rapikan(){
+export default function(){
 	buatFileHasil()
 
 	let data = fs.readFileSync('./hasil.txt', 'utf8')
@@ -10,5 +10,3 @@ export function rapikan(){
 	data = data.join('\n')
 	fs.writeFileSync('./hasil.txt', data)
 }
-
-rapikan()

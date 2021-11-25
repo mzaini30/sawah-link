@@ -1,5 +1,6 @@
 import fs from 'fs'
 import google from './redirect.js'
+// import google from './redirect-tes.js'
 import {question} from 'readline-sync'
 
 // let banyak = fs.readFileSync('./banyak.txt', 'utf8').trim()

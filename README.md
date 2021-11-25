@@ -9,3 +9,9 @@ npm i -g sawah
 ```bash
 sawah
 ```
+
+## Rapikan Sawah
+
+```bash
+rapikan-sawah
+```
